@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.9in]{geometry} 
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\graphicspath{ {./} }
+\usepackage{fancyhdr}
+\usepackage{subfig}
+\usepackage{accents}
+\pagestyle{fancy}
+\setlength{\headheight}{40pt}
+
+
+\newenvironment{solution}
+  {\renewcommand\qedsymbol{$\blacksquare$}
+  \begin{proof}[Solution]}
+  {\end{proof}}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\newcommand{\ubar}[1]{\underaccent{\bar}{#1}}
